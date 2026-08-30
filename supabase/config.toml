@@ -1,0 +1,5 @@
+# Supabase configuration for edge functions
+# Each function needs a [functions.<name>] table with verify_jwt set.
+
+[functions.downloader]
+verify_jwt = false
